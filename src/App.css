@@ -1,0 +1,71 @@
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-sider .brand {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.app-header {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid rgba(5, 5, 5, 0.06);
+}
+
+.header-left {
+  min-width: 240px;
+}
+
+.header-title {
+  margin: 0 !important;
+  font-size: 18px !important;
+}
+
+.top-menu {
+  flex: 1;
+  min-width: 280px;
+  border-bottom: 0 !important;
+}
+
+.header-right {
+  margin-left: auto;
+}
+
+.app-content {
+  padding: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.login-layout {
+  min-height: 100vh;
+}
+
+.login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.login-submit {
+  margin-bottom: 0;
+}
